@@ -1,4 +1,6 @@
 function generate() {
+  alert("clicked"); // cek tombol kepencet atau tidak
+
   let chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
   let length = document.getElementById("length").value;
   let password = "";
